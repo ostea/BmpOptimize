@@ -19,6 +19,7 @@
         <activity android:name=".activity.matrix.MatrixActivity"/>
         <activity android:name=".activity.matrix.PatImageViewActivity"/>
         <activity android:name=".activity.matrix.RelectedBmpActivity"/>
+        <activity android:name=".activity.svg.ShowSVGActivity"></activity>
     </application>
 
 </manifest>

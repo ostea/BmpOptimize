@@ -23,7 +23,6 @@ import com.github.ostea.bmpoptimize.R;
  */
 public class MatrixActivity extends AppCompatActivity implements View.OnTouchListener {
     TransformMatrixView mTransformMatrixView;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

@@ -8,6 +8,7 @@ import com.github.ostea.bmpoptimize.App.Constants;
 import com.github.ostea.bmpoptimize.activity.matrix.MatrixActivity;
 import com.github.ostea.bmpoptimize.activity.matrix.PatImageViewActivity;
 import com.github.ostea.bmpoptimize.activity.matrix.RelectedBmpActivity;
+import com.github.ostea.bmpoptimize.activity.svg.ShowSVGActivity;
 import com.github.ostea.bmpoptimize.data.MainRepository;
 
 import java.util.ArrayList;
@@ -35,14 +36,15 @@ public class MainPresenter implements MainContract.Presenter {
             case Constants.SIMPLE_MATRIX:
                 mContext.startActivity(new Intent(mContext,MatrixActivity.class));
                 break;
-
             case Constants.SIMPLE_MATRIX_1:
                 mContext.startActivity(new Intent(mContext,PatImageViewActivity.class));
                 break;
             case Constants.SIMPLE_MATRIX_2:
                 mContext.startActivity(new Intent(mContext,RelectedBmpActivity.class));
                 break;
-
+            case Constants.SVG_1:
+                mContext.startActivity(new Intent(mContext,ShowSVGActivity.class));
+                break;
         }
 
     }

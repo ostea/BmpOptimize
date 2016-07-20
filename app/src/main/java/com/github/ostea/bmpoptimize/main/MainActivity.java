@@ -1,5 +1,6 @@
 package com.github.ostea.bmpoptimize.main;
 
+import android.provider.Settings;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
