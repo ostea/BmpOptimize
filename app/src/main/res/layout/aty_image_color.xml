@@ -15,5 +15,10 @@
         android:layout_height="wrap_content"
         android:onClick="onColorMatrix"
         android:text="色彩矩阵" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onColorPixels"
+        android:text="像素处理" />
 
 </LinearLayout>

@@ -27,6 +27,7 @@
         <activity android:name=".activity.colordeal.ImageColorActivity"></activity>
         <activity android:name=".activity.colordeal.RGBAcrivity"></activity>
         <activity android:name=".activity.colordeal.ColorMatrixActivity"></activity>
+        <activity android:name=".activity.colordeal.ColorPixelsActivity"></activity>
     </application>
 
 </manifest>

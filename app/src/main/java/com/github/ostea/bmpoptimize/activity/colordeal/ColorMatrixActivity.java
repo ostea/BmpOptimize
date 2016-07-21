@@ -19,7 +19,7 @@ import android.widget.ImageView;
 import com.github.ostea.bmpoptimize.R;
 
 /**
- * Desc:
+ * Desc: ColorMatrix是有一个矩阵改变所有像素点
  * Created by Thorn on 16/7/21.
  */
 public class ColorMatrixActivity extends AppCompatActivity {

@@ -31,4 +31,7 @@ public class ImageColorActivity extends AppCompatActivity{
     public void onColorMatrix(View v) {
         startActivity(new Intent(ImageColorActivity.this,ColorMatrixActivity.class));
     }
+    public void onColorPixels(View v) {
+        startActivity(new Intent(ImageColorActivity.this,ColorPixelsActivity.class));
+    }
 }
