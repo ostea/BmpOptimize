@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.widget.ListView;
 
 import com.github.ostea.bmpoptimize.App.Constants;
+import com.github.ostea.bmpoptimize.activity.colordeal.ImageColorActivity;
 import com.github.ostea.bmpoptimize.activity.matrix.MatrixActivity;
 import com.github.ostea.bmpoptimize.activity.matrix.PatImageViewActivity;
 import com.github.ostea.bmpoptimize.activity.matrix.RelectedBmpActivity;
@@ -44,6 +45,9 @@ public class MainPresenter implements MainContract.Presenter {
                 break;
             case Constants.SVG_1:
                 mContext.startActivity(new Intent(mContext,ShowSVGActivity.class));
+                break;
+            case Constants.RGBA_3:
+                mContext.startActivity(new Intent(mContext,ImageColorActivity.class));
                 break;
         }
 

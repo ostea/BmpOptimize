@@ -16,6 +16,7 @@ public class MainRepository {
         mData.add(Constants.SIMPLE_MATRIX_1,"Android中图片变换Matrix的应用");
         mData.add(Constants.SIMPLE_MATRIX_2,"Android中图片变换Matrix的应用－倒影");
         mData.add(Constants.SVG_1,"Android中Vector矢量");
+        mData.add(Constants.RGBA_3,"图像的色彩变幻");
         return  mData;
     }
 }

@@ -38,7 +38,7 @@ public class MatrixActivity extends AppCompatActivity implements View.OnTouchLis
     public boolean onTouch(View view, MotionEvent motionEvent) {
         if (motionEvent.getAction()==MotionEvent.ACTION_UP) {
             Matrix matrix=new Matrix();
-            // 输出图像的宽度和高度(162 x 251)
+            // 输出图像的宽度和高度(72 x 72)
             Log.e("Test", "image size: width x height = " +
                     mTransformMatrixView.getBitmap().getWidth() + " x "
                     + mTransformMatrixView.getBitmap().getHeight());
@@ -62,8 +62,8 @@ public class MatrixActivity extends AppCompatActivity implements View.OnTouchLis
 
             //5.对称变换
 
-            float matrix_values[] = {1f, 0f, 0f, 0f, -1f, 0f, 0f, 0f, 1f};
-            matrix.setValues(matrix_values);
+            //float matrix_values[] = {1f, 0f, 0f, 0f, -1f, 0f, 0f, 0f, 1f};
+            //matrix.setValues(matrix_values);
             // 做下面的平移变换，纯粹是为了让变换后的图像和原图像不重叠
 			matrix.postTranslate(mTransformMatrixView.getBitmap().getWidth() * 1.5f, 0f);
             mTransformMatrixView.setImageMatrix(matrix);

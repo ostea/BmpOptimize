@@ -30,11 +30,10 @@ public class RelectedBmpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.aty_matrix);
 
-        img_1 = (ImageView) findViewById(R.id.img_1);
         img_2 = (ImageView) findViewById(R.id.img_2);
 
         Bitmap bitmap = BitmapFactory.decodeResource(getResources(), R.mipmap.ic_launcher);
-        img_1.setImageBitmap(bitmap);
+
         Bitmap ref = createReflectedImage(bitmap);
         img_2.setImageBitmap(ref);
 

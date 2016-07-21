@@ -19,7 +19,14 @@
         <activity android:name=".activity.matrix.MatrixActivity"/>
         <activity android:name=".activity.matrix.PatImageViewActivity"/>
         <activity android:name=".activity.matrix.RelectedBmpActivity"/>
+
+
         <activity android:name=".activity.svg.ShowSVGActivity"></activity>
+
+        <!--图像的色彩处理-->
+        <activity android:name=".activity.colordeal.ImageColorActivity"></activity>
+        <activity android:name=".activity.colordeal.RGBAcrivity"></activity>
+        <activity android:name=".activity.colordeal.ColorMatrixActivity"></activity>
     </application>
 
 </manifest>
